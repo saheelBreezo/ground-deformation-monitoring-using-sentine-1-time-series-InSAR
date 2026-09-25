@@ -1,0 +1,16 @@
+name: dammam-mintpy
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - mintpy>=1.6.3
+  - gdal
+  - rasterio>=1.4
+  - shapely>=2.1
+  - pyproj>=3.7
+  - pyyaml>=6
+  - h5py
+  - packaging
